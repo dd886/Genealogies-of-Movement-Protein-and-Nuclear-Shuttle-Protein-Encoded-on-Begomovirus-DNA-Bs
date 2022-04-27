@@ -82,14 +82,14 @@ data_list = glob.glob("file name")
 # In[8]:
 
 
-LG_aa_order = ['A','R','N','D','C','Q','E','G','H','I','L','K','M','F','P','S','T','W','Y','V']
+#LG_aa_order = ['A','R','N','D','C','Q','E','G','H','I','L','K','M','F','P','S','T','W','Y','V']
 B50_aa_order = ['A','R','N','D','C','Q','E','G','H','I','L','K','M','F','P','S','T','W','Y','V','B','J','Z','X','*']
 
 
 # In[10]:
 
 
-LG = pd.read_csv("LG.csv",header=0, index_col=0)
+#LG = pd.read_csv("LG.csv",header=0, index_col=0)
 
 
 # In[11]:
@@ -154,7 +154,7 @@ print(ent)
 
 
 #Pairwise similarity maximum for two allele locus (C,E)
-(1/LG.loc['C','E']) * 0.5
+#(1/LG.loc['C','E']) * 0.5
 
 
 # In[40]:
